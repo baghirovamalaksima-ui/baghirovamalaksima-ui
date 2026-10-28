@@ -19,6 +19,13 @@ Tenant-scoped ingestion with durable SQLite jobs, transactional upserts, FTS5,
 FAISS, and reciprocal-rank fusion. Includes 30 documented local tests and a
 1,000-document synthetic retrieval experiment reporting both gains and failures.
 
+### [Onboarding Agent](https://github.com/baghirovamalaksima-ui/onboarding-agent)
+
+Bounded function-calling loop with availability, booking, and handoff tools backed
+by a FastAPI mock. Application-owned consent, slot confirmation, idempotency, and
+23 passing local and Docker tests. The OpenAI adapter is protocol-tested; no live
+model result is claimed.
+
 ### [AI Reliability Lab](https://github.com/baghirovamalaksima-ui/ai-reliability-lab)
 
 Precision/Recall, MRR, nDCG, citation grounding, and adversarial behavior checks.
