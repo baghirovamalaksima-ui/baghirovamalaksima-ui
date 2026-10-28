@@ -1,85 +1,59 @@
 # Malaksima Baghirova
 
-### AI Engineer · LLM Applications & RAG Systems Specialist
+AI engineering · document retrieval · evaluation · guardrails
 
-I build document-grounded AI workflows with a focus on healthcare onboarding,
-retrieval, guardrails, and measurable system behavior. My professional work connects
-conversational design with document processing and practical AI integration.
+I build document-grounded AI workflows with traceable sources, explicit failure
+handling, and reproducible tests.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-## Professional Focus
-
-- **Healthcare AI:** clinical prompt refinement, domain guardrails, OpenAI API
-  integration, patient-onboarding conversations, and psychology-informed workflow design.
-- **Document intelligence:** NLP extraction pipelines, AI-powered retrieval,
-  database optimization, and RAG-based documentation.
-- **Engineering quality:** explicit system boundaries, source traceability,
-  automated tests, reproducible evaluation, and failure analysis.
-
-## Experience
-
-| Organization | Focus |
-|---|---|
-| NextGen Health Tech Solutions · Dubai, UAE | Clinical prompt refinement, domain guardrails and real-time patient-onboarding workflows using OpenAI APIs |
-| Polish Institute of Cognitive Technologies · Warsaw, Poland | NLP extraction, document retrieval and database optimization for a workflow processing 100k+ documents monthly |
-| Melora Psychological Center / Freelance | Psychological-service operations and RAG-based documentation workflows |
-
-**Reported professional outcomes:** 95%+ accuracy in healthcare conversational
-workflows; 70% efficiency improvement and 40% hallucination reduction in document
-workflows. These figures come from my professional experience summary. Their
-evaluation definitions and employer datasets are not published here, and they are
-not benchmark results from the public repositories below.
-
-## Featured Engineering Projects
+## Featured Projects
 
 ### [Healthcare LLM Guardrails](https://github.com/baghirovamalaksima-ui/healthcare-llm-guardrails)
 
-An administrative onboarding API with consent gates, risk/human-handoff routing,
-FAISS policy retrieval, and an optional constrained OpenAI quote selector.
-
-**Evidence:** 40 local tests passed; 30/30 tuned synthetic development route cases.
-The repository documents why these results do not establish clinical safety or
-real-model accuracy. Includes FastAPI, Docker/Compose, CI and OpenAPI documentation.
+FastAPI onboarding API with consent gates, human handoff, FAISS policy retrieval,
+and constrained quote validation. Includes 40 documented local tests and synthetic
+route evaluation; these checks do not establish clinical safety.
 
 ### [Enterprise RAG Document Pipeline](https://github.com/baghirovamalaksima-ui/enterprise-rag-document-pipeline)
 
-A tenant-scoped document system with durable ingestion jobs, transactional upserts,
-typed field extraction, SQLite FTS5, FAISS and reciprocal-rank fusion.
+Tenant-scoped ingestion with durable SQLite jobs, transactional upserts, FTS5,
+FAISS, and reciprocal-rank fusion. Includes 30 documented local tests and a
+1,000-document synthetic retrieval experiment reporting both gains and failures.
 
-**Evidence:** 30 local tests passed; a reproducible 1,000-document synthetic experiment
-compares lexical, hash-vector and hybrid retrieval, including unfavorable results.
-Includes worker-recovery, isolation, API and provider-protocol tests.
+### [AI Reliability Lab](https://github.com/baghirovamalaksima-ui/ai-reliability-lab)
 
-### Earlier Foundations
+Precision/Recall, MRR, nDCG, citation grounding, and adversarial behavior checks.
+All 35 local tests passed, including real multilingual embeddings; offline CI
+passed on Python 3.11–3.13. Docker execution is also validated.
 
-- [Grounded Document Q&A](https://github.com/baghirovamalaksima-ui/grounded-doc-qa)
-  — deterministic retrieval, citations and conservative abstention.
-- [RAG Evaluation Benchmark](https://github.com/baghirovamalaksima-ui/rag-eval-bench)
-  — retrieval metrics, answer coverage and transparent case-level failures.
-
-## Technical Toolkit
+## Toolkit Used in These Projects
 
 | Area | Technologies |
 |---|---|
-| Languages | Python, SQL, JavaScript |
-| LLM & RAG ecosystem | LangChain, LlamaIndex, Hugging Face, OpenAI APIs |
-| Retrieval & vector search | FAISS, Pinecone, Weaviate |
-| APIs & delivery | FastAPI, Docker, Git/GitHub, GitHub Actions |
+| Language and storage | Python, SQL, SQLite |
+| APIs and retrieval | FastAPI, FAISS, SQLite FTS5 |
+| Evaluation | pytest, sentence-transformers |
+| Delivery | Docker, GitHub Actions |
+| Optional provider integration | OpenAI API adapters; protocol-tested, without claimed live API results |
 
-The toolkit reflects my stated professional stack. Individual repositories identify
-the libraries they actually implement and test; every listed technology is not
-claimed as an integration in every project.
+## Experience
 
-## Engineering Approach
+- **NextGen Health Tech Solutions:** clinical prompt refinement, guardrails, and patient-onboarding workflows.
+- **Polish Institute of Cognitive Technologies:** NLP extraction, document retrieval, and database optimization.
+- **Melora Psychological Center / Freelance:** service operations and documentation workflows.
 
-I make implemented behavior, measured results, and remaining limitations explicit.
-Public projects use synthetic data and independently written code; employer code,
-patient records and private documents are not included. Portfolio development uses
-AI assistance, with automated checks and documented validation boundaries.
+## Earlier Work
 
-[View my repositories](https://github.com/baghirovamalaksima-ui?tab=repositories)
+[Grounded Document Q&A](https://github.com/baghirovamalaksima-ui/grounded-doc-qa)
+and [RAG Evaluation Benchmark](https://github.com/baghirovamalaksima-ui/rag-eval-bench)
+cover deterministic retrieval, citations, abstention, and case-level evaluation.
+
+## Reported Professional Outcomes
+
+Self-reported professional figures: 95%+ conversational accuracy, 70% workflow
+efficiency improvement, and 40% hallucination reduction. Employer datasets and
+evaluation definitions are not published; these are not public-repository results.
+
+Public projects use synthetic data and AI-assisted development, with tests and
+documented limitations. No employer code or patient records are included.
+
+[All repositories](https://github.com/baghirovamalaksima-ui?tab=repositories)
